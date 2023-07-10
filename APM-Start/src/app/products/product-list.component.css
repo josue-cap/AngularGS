@@ -1,0 +1,44 @@
+thead {
+  text-align: center;
+  vertical-align: middle;
+  color: greenyellow;
+  font-size: 18px;
+  background-color: black;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5),
+    -2px -2px 4px rgba(255, 255, 255, 0.5);
+}
+thead button {
+  color: white;
+  background-color: green;
+  border: none;
+  padding: 10px 20px;
+  transition: box-shadow 0.3s, background-color 0.3s;
+}
+thead button:hover {
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  background-color: whitesmoke;
+  color: black;
+}
+
+tbody tr td {
+  height: 90px;
+  text-align: center;
+  vertical-align: middle;
+  color: black;
+  padding: 10px 20px;
+  transition: box-shadow 0.3s, background-color 0.3s;
+}
+tbody tr td img {
+  display: inline-block;
+  vertical-align: middle;
+}
+tbody tr td:hover {
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  background-color: whitesmoke;
+  color: black;
+  border-radius: 10px;
+}
+#center-comp {
+  text-align: center;
+  vertical-align: middle;
+}
